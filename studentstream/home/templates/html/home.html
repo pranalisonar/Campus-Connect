@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="profile-image.jpg" alt="Profile" class="profile-image">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="home">Home</a></li>
+                <li><a href="lib">Library</a></li>
+                <li><a href="contact">Contact Us</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to the Home Page</h1>
+            <p>This is where you introduce your website and provide an overview of what users can find.</p>
+        </section>
+
+        <section id="library">
+            <h2>Library</h2>
+            <p>Information about the library section goes here.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Provide contact information or a contact form here.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Details about your organization or project can be provided here.</p>
+        </section>
+
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>User profile details can be managed or displayed here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
